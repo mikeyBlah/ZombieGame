@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing : border-box;
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #FAFAFA;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FAFAFA;
+}
+#main_wrap{
+  width: 100%;
+  height: 100vh;
+  background: #FAFAFA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#all_wrap{
+  display: flex;
+}
+#focalArea{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#outputContain{
+  width: 100%;
+}
+#outputMessage{
+  height: 200px;
+  width: 100%;
+  background: #000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #29a023;
+  font-family: 'VT323', monospace;
+  font-size: 1.6rem;
+}
+#userInputForm{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#userInput{
+  width: 80%;
+  padding: 20px;
+  background: #000;
+  color: #FAFAFA;
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
+}
+#enterBtn{
+  width: 20%;
+  padding: 20px;
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
+}
+#sideBar{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+#mapWrap{
+  width: 200px;
+}
+#map{
+  width: 100%;
+  height: 200px;
+  border: 2px solid #000;
+  align-self: flex-start;
+  position: relative;
+  z-index: 0;
+}
+#mapDarkness{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: #333;
+}
+#userMap{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  position: relative;
+  left: 85px;
+  top: 85px;
+  transition: all 1s ease 0s;
+}
+#playerIcon{
+  width: 26px;
+  height: 10px;
+  background: #0066ff;
+  position: relative;
+  top: 10px;
+  left: 2px;
+  border-radius: 5px;
+}
+#playerHead{
+  width: 12px;
+  height: 12px;
+  background: #ffd7b3;
+  position: absolute;
+  left: 7px;
+  top: -1px;
+  border-radius: 10px;
+}
+#torch {
+  position: absolute;
+  top: -38px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 50px solid #CCCCCC;
+}
+#inventWrap{
+  width: 200px;
+}
+.wrapHeader{
+  padding: 10px;
+  background: #46935e;
+  color: #FAFAFA;
+  text-align: center;
+  position: relative;
+    z-index: 2;
+}
+#inventContent{
+  width: 100%;
+  border: 2px solid #000;
+}
+.slot{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+.slot img{
+  width: 40px;
+  height: 40px;
+}
